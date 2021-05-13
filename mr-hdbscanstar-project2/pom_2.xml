@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.icmc.usp.main</groupId>
+  <artifactId>mr-hdbscanstar-project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>mr-hdbscanstar-project</name>
+  
+  <dependencies>
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-core_2.11</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+ 
+<dependency>
+<groupId>org.scala-lang</groupId>
+    <artifactId>scala-library</artifactId>
+    <version>2.11.12</version>
+</dependency>
+ 
+ <dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-compiler</artifactId>
+    <version>2.9.2</version>
+</dependency>
+ 
+ 
+<dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-xml_2.11.0-M4</artifactId>
+    <version>1.0-RC1</version>
+</dependency> 
+
+  </dependencies>
+</project>
